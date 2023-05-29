@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2? family=Chakra+Petch:wght@300&family=Gruppo&family=Play&display=swap');
+body{
+    background-color: black;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 20px;
+}
+header{
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%s;
+}
+
+.header .logo img{
+height: 70px;
+width: auto;
+transition: all 0.3s;
+}
+header .logo img:hover{
+    transform: scale(1.2);
+}
+header .nav-links{
+    list-style: none;
+}
+header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+header .nav-links li a:hover{
+    color: green;
+}
+header .btn button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+header .btn button:hover{
+    background-color: white;
+    color: green;
+    transform: scale(1.1);
+}
+section{
+    display: flex;
+    left: 200px;
+    justify-content: space-around;
+    width: 600px;
+    height: 430px;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+p{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    color: green;
+}
+
+
+
+
+
+
+
+
